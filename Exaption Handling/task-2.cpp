@@ -12,7 +12,7 @@ int main(){
 	cin>>age;
 	
 	try{
-		if(age!=18){
+		if(age<18){
 			throw age;
 		}
 		else{
