@@ -1,4 +1,4 @@
-//- a password cannot be validate if it doesn’t contains an uppercase letter
+//- a password cannot be validate if it doesnâ€™t contains an uppercase letter
 
 #include<iostream>
 
@@ -16,12 +16,12 @@ int main(){
 			throw password;
 		}
 		else{
-			cout<<"a password cannot be validate"<<endl;
+			cout<<"This password cannot be validate"<<endl;
 		}
 	}
 	
 	catch(...){
-		cout<<"a password is validate"<<endl;
+		cout<<"This password is validate"<<endl;
 	}
 	
 	
